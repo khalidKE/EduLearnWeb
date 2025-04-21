@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="top-bar">
+                <div class="language-selector">
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="ar">العربية</option>
+                        <option value="fr">Français</option>
+                        <option value="es">Español</option>
+                    </select>
+                </div>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-login">Log In</a>
+                    <a href="#" class="btn btn-register">Register</a>
+                </div>
+            </div>
+
+            <div class="main-nav">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-text">Edu<span class="highlight">Learn</span></span>
+                    </a>
+                </div>
+
+                <nav class="nav-menu">
+                    <ul class="nav-links">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Courses <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">All Courses</a></li>
+                                <li><a href="#">Featured Courses</a></li>
+                                <li><a href="#">New Releases</a></li>
+                                <li><a href="#">Popular Courses</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Categories <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Mobile Development</a></li>
+                                <li><a href="#">Data Science</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Design</a></li>
+                                <li><a href="#">Marketing</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="nav-tools">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search for courses...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="cart">
+                        <a href="#" class="cart-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-count">3</span>
+                        </a>
+                    </div>
+                    <div class="wishlist">
+                        <a href="#" class="wishlist-icon">
+                            <i class="fas fa-heart"></i>
+                            <span class="wishlist-count">5</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <div class="mobile-search">
+                <input type="text" placeholder="Search for courses...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+            <ul class="mobile-nav-links">
+                <li><a href="#" class="active">Home</a></li>
+                <li class="mobile-dropdown">
+                    <a href="#" class="mobile-dropdown-toggle">Courses <i class="fas fa-chevron-down"></i></a>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="#">All Courses</a></li>
+                        <li><a href="#">Featured Courses</a></li>
+                        <li><a href="#">New Releases</a></li>
+                        <li><a href="#">Popular Courses</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-dropdown">
+                    <a href="#" class="mobile-dropdown-toggle">Categories <i class="fas fa-chevron-down"></i></a>
+                    <ul class="mobile-dropdown-menu">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Mobile Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="mobile-auth">
+                <a href="#" class="btn btn-login">Log In</a>
+                <a href="#" class="btn btn-register">Register</a>
+            </div>
+            <div class="mobile-tools">
+                <div class="language-selector">
+                    <select id="mobile-language-select">
+                        <option value="en">English</option>
+                        <option value="ar">العربية</option>
+                        <option value="fr">Français</option>
+                        <option value="es">Español</option>
+                    </select>
+                </div>
+                <div class="mobile-cart-wishlist">
+                    <a href="#" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">3</span>
+                    </a>
+                    <a href="#" class="wishlist-icon">
+                        <i class="fas fa-heart"></i>
+                        <span class="wishlist-count">5</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="demo-content">
+        <div class="container">
+            <h1>Welcome to EduLearn</h1>
+            <p>Discover thousands of courses to help you grow in your career and personal development.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">Browse Courses</a>
+                <a href="#" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
